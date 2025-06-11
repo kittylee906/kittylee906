@@ -1,13 +1,4 @@
-import tkinter as tk
-from tkinter import filedialog
-from PIL import Image, ImageTk
-import os
 
-class AlbumFofo:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("📷 Álbum de Fotos Fofo 💖")
-        self.root.configure(bg="#ffe6f0")
 
         self.fotos = []
         self.index = 0
